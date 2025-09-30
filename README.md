@@ -11,4 +11,25 @@ O fluxo de caixa é uma das principais ferramentas de gestão financeira, pois p
 
 ## 3. Desenvolvimento
 
+### 3.1. Datasets
+Este projeto é composto de **04 Datasets**:
+- Bancos.xlsx;
+- PlanoContas.xlsx;
+- Movimentos.xlsx;
+- SaldoAnterior.xlsx.
+
+### 3.2. Dicionário de Dados
+
+#### 3.2.1. Dataset: "Bancos.xlsx":
+![tabela_bancos](files/dd_tabela_bancos.PNG) <br>
+
+#### 3.2.2. Dataset: "PlanoContas.xlsx":
+![tabela_plano_contas](files/dd_tabela_plano_contas.PNG) <br>
+
+#### 3.2.3. Dataset: "Movimentos.xlsx":
+![tabela_movimentos](files/dd_tabela_movimentos.PNG) <br>
+
+#### 3.2.4. Dataset: "SaldoAnterior.xlsx":
+![tabela_saldo_anterior](files/dd_tabela_saldo_anterior.PNG) <br>
+
 ## 4. Conclusão/Resultados para o Negócio
