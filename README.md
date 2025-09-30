@@ -35,4 +35,8 @@ Este projeto é composto de `04 Datasets`:
 #### 3.2.4. Dataset: "SaldoAnterior.xlsx":
 ![tabela_saldo_anterior](files/dd_tabela_saldo_anterior.PNG) <br>
 
+### 3.3. Ingestão de Dados no Power BI
+
+### 3.4. Transformação de Dados no Power Query (Modelo Dimensional)
+
 ## 4. Conclusão/Resultados para o Negócio
