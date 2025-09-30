@@ -1,16 +1,14 @@
 # Projeto Fluxo de Caixa
 
-## Entendimento do Negócio
+## 1. Entendimento do Negócio
 O fluxo de caixa é uma das principais ferramentas de gestão financeira, pois permite acompanhar de forma clara todas as entradas e saídas de recursos de uma organização em determinado período. Ele possibilita analisar a liquidez da empresa, identificar tendências de receita e despesa, além de apoiar a tomada de decisão estratégica. Por meio do monitoramento do fluxo de caixa, é possível prever cenários futuros, planejar investimentos, controlar custos e garantir a sustentabilidade financeira do negócio.
 
-## Justificativas do Projeto
+## 2. Justificativas do Projeto
 
+### 2.1. Necessidade de Desenvolvimento da Solução (What | Why)
 
+### 2.2. Tecnologias/Ferramentas Utilizadas
 
+## 3. Desenvolvimento
 
-## Desenvolvimento
-
-
-
-
-## Conclusão / Resultados
+## 4. Conclusão/Resultados para o Negócio
