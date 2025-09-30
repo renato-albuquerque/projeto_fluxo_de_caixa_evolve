@@ -8,6 +8,9 @@ O fluxo de caixa é uma das principais ferramentas de gestão financeira, pois p
 ### 2.1. Necessidade de Desenvolvimento da Solução (What | Why)
 
 ### 2.2. Tecnologias/Ferramentas Utilizadas
+- Git & GitHub: Controle de versionamento durante o desenvolvimento do projeto, assim como conectar os dados em nuvem.
+- Visual Studio Code: Ambiente de desenvolvimento integrado. Software para execução do projeto (IDE: Integrated Development Environment).
+- Power BI: Visualização dos dados e geração de insights para o negócio.
 
 ## 3. Desenvolvimento
 
