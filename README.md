@@ -38,11 +38,16 @@ Este projeto é composto de `04 Datasets`:
 ### 3.3. Ingestão de Dados no Power BI
 Foi adicionado no Power BI as 4 tabelas mostradas na seção anterior. <br>
 Foi renomeado o nome das tabelas para adequar ao `Modelo Dimensional`. <br>
-_(Obs.: Informação da dim__calendario será detalhada a seguir)._ <br>
+_(Obs.: Informação da dim__calendario será detalhada no tópico seguinte)._ <br>
 
 ![tabelas_modelo_dimensional](files/tabelas_modelo_dimensional.PNG)
 
-### 3.4. Transformação de Dados no Power Query (Modelo Dimensional)
+### 3.4. Transformação de Dados no Power Query
+
+#### 3.4.1. Tabelas dim_bancos & dim_contas
+Não foi preciso realizar transformações nas tabelas. 
+
+#### 3.4.2. Tabela f_movimentos
 
 
 ## 4. Conclusão/Resultados para o Negócio
