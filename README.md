@@ -38,7 +38,7 @@ Este projeto é composto de `04 Datasets`:
 ### 3.3. Ingestão de Dados no Power BI
 Foi adicionado no Power BI as 4 tabelas mostradas na seção anterior. <br>
 Foi renomeado o nome das tabelas para adequar ao `Modelo Dimensional`. <br>
-_Obs.: Informação da dim__calendario será detalhada a seguir_ <br>
+_(Obs.: Informação da dim__calendario será detalhada a seguir)._ <br>
 
 ![tabelas_modelo_dimensional](files/tabelas_modelo_dimensional.PNG)
 
