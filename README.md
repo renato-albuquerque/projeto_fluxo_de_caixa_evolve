@@ -36,7 +36,13 @@ Este projeto é composto de `04 Datasets`:
 ![tabela_saldo_anterior](files/dd_tabela_saldo_anterior.PNG) <br>
 
 ### 3.3. Ingestão de Dados no Power BI
+Foi adicionado no Power BI as 4 tabelas mostradas na seção anterior. <br>
+Foi renomeado o nome das tabelas para adequar ao `Modelo Dimensional`. <br>
+_Obs.: Informação da dim__calendario será detalhada a seguir_ <br>
+
+![tabelas_modelo_dimensional](files/tabelas_modelo_dimensional.PNG)
 
 ### 3.4. Transformação de Dados no Power Query (Modelo Dimensional)
+
 
 ## 4. Conclusão/Resultados para o Negócio
