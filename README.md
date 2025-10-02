@@ -96,8 +96,8 @@ Segue abaixo modelo criado da tabela dim_calendario. Obs.: Menor data da base de
 - Nas colunas de `MesNome` e `MesAbrev`, classificar pelo `MesNumero`.
 ![classificar_colunas_para_MesNumero](files/mesnome_mesabrev_classificar_mesnumero.PNG)
 
-- Outros ajustes, tabela `dim_contas`:
--- Coluna Conta, classificar por coluna Conta_ID.
+- Outros ajustes, tabela `dim_contas`: <br>
+-- Coluna Conta, classificar por coluna Conta_ID. <br>
 -- Coluna Subgrupo, classificar por coluna Subgrupo_ID.
 
 #### 3.4.6. Modelagem Dimensional
