@@ -50,11 +50,11 @@ Não foi preciso realizar transformações nas tabelas.
 #### 3.4.2. Tabela f_movimentos
 - Colunas `Conta` e `Banco` foram retiradas. Como melhor prática para performance, foram inseridas as colunas `Conta_ID` e `Banco_ID`. Abaixo seguem os passos realizados: <br>
 
-Mesclar consulta
+`Mesclar consulta:`
 ![mesclar_consultas](files/mesclar_consultas.PNG)
 <br>
 
-Escolher coluna. Como exemplo, imagem da escolha pela coluna `Banco_ID`.
+`Escolher: coluna:` Como exemplo, imagem da escolha pela coluna `Banco_ID`.
 ![escolher_coluna](files/mesclar_consultas_2.PNG)
 
 ## 4. Conclusão/Resultados para o Negócio
