@@ -59,16 +59,16 @@ Não foi preciso realizar transformações nas tabelas.
 
 - 2ª, as colunas inseridas foram renomeadas para `Conta_ID` e `Banco_ID`.
 
-- 3ª, excluir as colunas `Conta` e `Banco` e ordenar as colunas conforme ordem preferida. Abaixo segue o passo realizado: <br>
+- 3ª, "excluir" as colunas `Conta` e `Banco` e "ordenar" as colunas conforme ordem preferida. Abaixo segue o passo realizado: <br>
 ![excluir_ordenar_colunas](files/remover_colunas.PNG)
 
-- 4ª, na coluna `Tipo`, com valores "Entrada" e "Saída", a ação foi por mostrar apenas o 1ª caractere, "E" e "S". Finalidade de deixar os dados da coluna mais "clean". Abaixo segue o passo realizado: <br>
+- 4ª, na coluna `Tipo`, com valores "Entrada" e "Saída", a ação foi por mostrar apenas o 1ª caractere, "E" e "S". Finalidade de deixar os dados da coluna "clean". Abaixo segue o passo realizado: <br>
 ![mostrar_primeiro_caractere](files/extrair_primeiro_caractere.PNG)
 ![mostrar_primeiro_caractere](files/extrair_primeiro_caractere_2.PNG)
 
 - 5ª, na coluna `Valor`, o tipo de dado foi alterado para "Número decimal fixo". <br>
-Alguns motivos: Evita erros de arredondamento. Mais confiável para cálculos de dinheiro, taxas, juros, impostos. Em relatórios financeiros e de fluxo de caixa, precisão absoluta é obrigatória (mesmo centavos importam). Este tipo garante que as somas e agregações não tenham distorções de arredondamento. <br>
-Boa prática: Sempre que a coluna representa moeda, saldo bancário, receitas ou despesas, escolha `Número Decimal` Fixo no Power Query. <br>
+-- Alguns motivos: Evita erros de arredondamento. Mais confiável para cálculos de dinheiro, taxas, juros, impostos. Em relatórios financeiros e de fluxo de caixa, precisão absoluta é obrigatória (mesmo centavos importam). Este tipo garante que as somas e agregações não tenham distorções de arredondamento. <br>
+-- Boa prática: Sempre que a coluna representa moeda, saldo bancário, receitas ou despesas, escolha `Número Decimal` Fixo no Power Query. <br>
 Abaixo segue o passo realizado: <br>
 ![tipo_dado_numero_decimal_fixo](files/col_valor_tipo_dado.PNG)
 
