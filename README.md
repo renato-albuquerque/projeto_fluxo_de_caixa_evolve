@@ -82,4 +82,15 @@ Abaixo segue o passo realizado: <br>
 - Segue abaixo tabela final com as transformações realizadas: <br>
 ![tabela_f_saldo_anterior_transformada](files/f_saldo_anterior_final.PNG)
 
+#### 3.4.4. Criação da tabela `dim_calendario`.
+Segue abaixo modelo criado da tabela dim_calendario. Obs.: Menor data destas bases de dados foi 02/Jan/23. <br>
+![dim_calendario](files/dim_calendario.PNG)
+
+#### 3.4.5. Ajustes na tabela `dim_calendario`.
+- Clicar no canto superior direito da tabela (...), Clicar em `Marcar como tabela de data`. <br>
+![dim_calendario_tabela_de_data](files/dim_calendario_marcar_como_tabela_de_data.PNG)
+
+- Nas colunas de datas de todas as tabelas, configurar em "Propriedades" o formato desejado. A opção foi pelo formato de data mais curto. <br>  
+![dim_calendario_formato_data](files/dim_calendario_configurar_data.PNG)
+
 ## 4. Conclusão/Resultados para o Negócio
