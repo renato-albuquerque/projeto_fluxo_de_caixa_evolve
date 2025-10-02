@@ -75,4 +75,8 @@ Abaixo segue o passo realizado: <br>
 - 6ª, segue abaixo tabela final com todas as transformações realizadas:
 ![tabela_f_movimentos_transformada](files/f_movimentos_final.PNG)
 
+#### 3.4.3. Tabela f_saldo_anterior
+- Na coluna `Valor`, o tipo de dado foi alterado para "Número decimal fixo". Mesmo motivo explicado na tabela `f_movimentos, coluna "Valor"`. <br>
+![tipo_dado_numero_decimal_fixo](files/f_saldo_anterior_col_valor_tipo_dado.PNG)
+
 ## 4. Conclusão/Resultados para o Negócio
