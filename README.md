@@ -131,10 +131,15 @@ Segue abaixo modelo criado da tabela dim_calendario. Obs.: Menor data da base de
 ### 3.7. Desenvolvimento dos Dashboards (Dataviz)
 
 #### 3.7.1. Medidas
+![medidas](files/medidas.PNG)
 
 #### 3.7.2. Página "Matriz"
+![pagina_matriz](files/pagina_matriz.PNG)
 
 #### 3.7.3. Página "DFC" 
+![pagina_dfc](#373-página-dfc)
+
+#### 3.7.4. Navegação entre páginas
 
 ## 4. Conclusão/Resultados para o Negócio
 O desenvolvimento da solução de Fluxo de Caixa no Power BI permitiu centralizar e automatizar o tratamento dos dados financeiros, integrando informações provenientes de diferentes fontes (sistemas contábeis, bancos e planilhas operacionais). <br>
