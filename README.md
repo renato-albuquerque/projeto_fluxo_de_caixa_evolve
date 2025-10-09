@@ -133,6 +133,20 @@ Segue abaixo modelo criado da tabela dim_calendario. Obs.: Menor data da base de
 #### 3.7.1. Medidas
 ![medidas](files/medidas.PNG)
 
+##### Sobre Entradas
+```
+Entradas = 
+    CALCULATE(
+        SUM(f_movimentos[Valor]),
+        f_movimentos[Tipo] = "E"   
+    )
+```
+
+A medida Entradas calcula o total de valores financeiros classificados como entradas de recursos no fluxo de caixa. <br>
+
+Por meio da função CALCULATE, é somado o campo Valor da tabela f_movimentos, aplicando um filtro que considera apenas os registros onde o campo Tipo é igual a "E" (Entradas).
+
+
 #### 3.7.2. Página "Matriz"
 ![pagina_matriz](files/pagina_matriz.PNG)
 
