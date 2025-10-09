@@ -15,15 +15,21 @@ Os dados do fluxo de caixa são utilizados principalmente por gestores financeir
 ### 1.4. Qual o racional de cálculo
 O cálculo do fluxo de caixa é baseado na diferença entre entradas e saídas de recursos em determinado período. <br>
 A fórmula básica é: <br>
-Fluxo de Caixa = Entradas - Saídas <br>
+`Fluxo de Caixa = Entradas - Saídas` <br>
 A partir dessa estrutura, podem ser analisados o fluxo operacional, o fluxo de investimentos e o fluxo de financiamentos, permitindo uma visão completa da movimentação financeira e da capacidade de geração de caixa da empresa.
 
 ## 2. Justificativas do Projeto
 
-### 2.1. Necessidade de Desenvolvimento da Solução (What | Why)
+### 2.1. Necessidade de Desenvolvimento da Solução
+
+`Porque deste desenvolvimento:` <br>
+O desenvolvimento da solução de Fluxo de Caixa é necessário para consolidar e automatizar o controle financeiro da organização, permitindo uma visão integrada e em tempo real das entradas e saídas de recursos. <br>
+
+`O que será feito:` <br>
+A solução proposta visa centralizar dados de diferentes fontes (ERP, planilhas e extratos bancários), padronizar cálculos de fluxo de caixa e disponibilizar indicadores e visualizações interativas no Power BI. Dessa forma, será possível aprimorar o monitoramento financeiro, apoiar decisões estratégicas e antecipar cenários de receita, despesa e saldo de caixa. <br>
 
 ### 2.2. Tecnologias/Ferramentas Utilizadas
-- `Git & GitHub`: Controle de versionamento durante o desenvolvimento do projeto, assim como conectar os dados em nuvem.
+- `Git & GitHub`: Controle de versionamento durante o desenvolvimento do projeto, em ambiente local ou em nuvem.
 - `Visual Studio Code`: Ambiente de desenvolvimento integrado. Software para execução do projeto (IDE: Integrated Development Environment).
 - `Power BI`: Visualização dos dados e geração de insights para o negócio.
 
