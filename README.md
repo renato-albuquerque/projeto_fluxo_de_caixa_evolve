@@ -268,6 +268,9 @@ Para os dashboards desta página, seue abaixo tipos de gráficos selecionados:
 ![pagina_dfc_dashboards](files/dfc_dashboards.PNG)
 
 #### 3.7.4. Navegação entre páginas
+Apresentado forma de inserir os botões nos ícones, assim como explicação de ação para cada botão.
+![pagina_dfc_dashboards](files/botoes_navegacao.PNG)
+![pagina_dfc_dashboards](files/botoes_explicacao.PNG)
 
 ## 4. Conclusão/Resultados para o Negócio
 O desenvolvimento da solução de Fluxo de Caixa no Power BI permitiu centralizar e automatizar o tratamento dos dados financeiros, integrando informações provenientes de diferentes fontes (sistemas contábeis, bancos e planilhas operacionais). <br>
