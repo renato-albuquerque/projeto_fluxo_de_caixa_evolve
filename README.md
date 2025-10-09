@@ -35,40 +35,43 @@ A solução proposta visa centralizar dados de diferentes fontes (ERP, planilhas
 
 ## 3. Desenvolvimento
 
-### 3.1. Datasets
+### 3.1. Arquitetura do Projeto
+![arquitetura_projeto](files/arquitetura_projeto.PNG)
+
+### 3.2. Datasets
 Este projeto é composto de `04 Datasets`:
 - Bancos.xlsx;
 - PlanoContas.xlsx;
 - Movimentos.xlsx;
 - SaldoAnterior.xlsx.
 
-### 3.2. Dicionário de Dados
+### 3.3. Dicionário de Dados
 
-#### 3.2.1. Dataset: "Bancos.xlsx":
+#### 3.3.1. Dataset: "Bancos.xlsx":
 ![tabela_bancos](files/dd_tabela_bancos.PNG) <br>
 
-#### 3.2.2. Dataset: "PlanoContas.xlsx":
+#### 3.3.2. Dataset: "PlanoContas.xlsx":
 ![tabela_plano_contas](files/dd_tabela_plano_contas.PNG) <br>
 
-#### 3.2.3. Dataset: "Movimentos.xlsx":
+#### 3.3.3. Dataset: "Movimentos.xlsx":
 ![tabela_movimentos](files/dd_tabela_movimentos.PNG) <br>
 
-#### 3.2.4. Dataset: "SaldoAnterior.xlsx":
+#### 3.3.4. Dataset: "SaldoAnterior.xlsx":
 ![tabela_saldo_anterior](files/dd_tabela_saldo_anterior.PNG) <br>
 
-### 3.3. Ingestão de Dados no Power BI
+### 3.4. Ingestão de Dados no Power BI
 Foi adicionado no Power BI as 4 tabelas mostradas na seção anterior. <br>
 Foi renomeado o nome das tabelas para adequar ao `Modelo Dimensional`. <br>
 _(Obs.: Informação da dim__calendario será detalhada no tópico seguinte)._ <br>
 
 ![tabelas_modelo_dimensional](files/tabelas_modelo_dimensional.PNG)
 
-### 3.4. Transformação de Dados no Power Query
+### 3.5. Transformação de Dados no Power Query
 
-#### 3.4.1. Tabelas dim_bancos & dim_contas
+#### 3.5.1. Tabelas dim_bancos & dim_contas
 Não foi preciso realizar transformações nas tabelas. 
 
-#### 3.4.2. Tabela f_movimentos
+#### 3.5.2. Tabela f_movimentos
 - 1ª, como melhor prática para performance, foram inseridas as colunas `Conta_ID (Tabela dim_contas)` e `Banco_ID (Tabela dim_bancos)`. Abaixo seguem os passos realizados: <br>
 
 `Mesclar consulta:`
@@ -96,18 +99,18 @@ Abaixo segue o passo realizado: <br>
 - 6ª, segue abaixo tabela final com todas as transformações realizadas:
 ![tabela_f_movimentos_transformada](files/f_movimentos_final.PNG)
 
-#### 3.4.3. Tabela f_saldo_anterior
+#### 3.5.3. Tabela f_saldo_anterior
 - Na coluna `Valor`, o tipo de dado foi alterado para "Número decimal fixo". Mesmo motivo explicado na tabela `f_movimentos, coluna "Valor"`. <br>
 ![tipo_dado_numero_decimal_fixo](files/f_saldo_anterior_col_valor_tipo_dado.PNG)
 
 - Segue abaixo tabela final com as transformações realizadas: <br>
 ![tabela_f_saldo_anterior_transformada](files/f_saldo_anterior_final.PNG)
 
-#### 3.4.4. Criação da tabela `dim_calendario`.
+#### 3.5.4. Criação da tabela `dim_calendario`.
 Segue abaixo modelo criado da tabela dim_calendario. Obs.: Menor data da base de dados foi 02/Jan/23. <br>
 ![dim_calendario](files/dim_calendario.PNG)
 
-#### 3.4.5. Ajustes na tabela `dim_calendario`
+#### 3.5.5. Ajustes na tabela `dim_calendario`
 - Clicar no canto superior direito da tabela (...), Clicar em `Marcar como tabela de data`. <br>
 ![dim_calendario_tabela_de_data](files/dim_calendario_marcar_como_tabela_de_data.PNG)
 
@@ -121,7 +124,7 @@ Segue abaixo modelo criado da tabela dim_calendario. Obs.: Menor data da base de
 -- Coluna Conta, classificar por coluna Conta_ID. <br>
 -- Coluna Subgrupo, classificar por coluna Subgrupo_ID.
 
-#### 3.4.6. Modelagem Dimensional
+#### 3.5.6. Modelagem Dimensional
 ![modelagem_dimensional_concluida](files/modelagem_dimensional.PNG)
 
 ## 4. Conclusão/Resultados para o Negócio
