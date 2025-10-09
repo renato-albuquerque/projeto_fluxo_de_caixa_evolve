@@ -133,7 +133,7 @@ Segue abaixo modelo criado da tabela dim_calendario. Obs.: Menor data da base de
 #### 3.7.1. Medidas
 ![medidas](files/medidas.PNG)
 
-##### Sobre Entradas
+##### `Sobre: Entradas`
 ```
 Entradas = 
     CALCULATE(
@@ -144,8 +144,110 @@ Entradas =
 
 A medida Entradas calcula o total de valores financeiros classificados como entradas de recursos no fluxo de caixa. <br>
 
-Por meio da função CALCULATE, é somado o campo Valor da tabela f_movimentos, aplicando um filtro que considera apenas os registros onde o campo Tipo é igual a "E" (Entradas).
+Por meio da função CALCULATE, é somado o campo Valor da tabela f_movimentos, aplicando um filtro que considera apenas os registros onde o campo Tipo é igual a "E" (Entradas). <br>
 
+Em resumo, essa medida retorna o somatório de todos os recebimentos da empresa — como receitas, vendas ou outros ingressos de caixa — servindo de base para o cálculo do saldo operacional e demais indicadores financeiros no dashboard.
+
+##### `Sobre: Saídas`
+```
+Saídas = 
+    CALCULATE(
+        SUM(f_movimentos[Valor]),
+        f_movimentos[Tipo] = "S"   
+    )
+```
+
+A medida Saídas calcula o total de valores referentes às saídas de recursos no fluxo de caixa. <br>
+
+Utilizando a função CALCULATE, ela soma o campo Valor da tabela f_movimentos, aplicando um filtro que considera apenas os registros em que o campo Tipo é igual a "S" (Saídas). <br>
+
+Em resumo, essa medida representa todos os pagamentos e despesas realizados pela empresa — como fornecedores, folha de pagamento, impostos e outros desembolsos — sendo essencial para a apuração do saldo operacional e do saldo final no dashboard de fluxo de caixa.
+
+##### `Sobre: Saídas ABS`
+```
+Saídas ABS = ABS([Saídas])
+```
+
+A medida Saídas ABS tem como objetivo retornar o valor absoluto das saídas financeiras. <br>
+
+Ela utiliza a função ABS, que converte números negativos em positivos, aplicada sobre a medida [Saídas]. Dessa forma, independentemente do sinal do valor original, o resultado sempre será positivo. <br>
+
+Em resumo, essa medida é usada para padronizar a exibição dos valores de saída, facilitando a leitura e comparação nos gráficos e indicadores do dashboard de fluxo de caixa.
+
+##### `Sobre: Saldo Operacional`
+```
+Saldo Operacional = sum(f_movimentos[Valor])
+```
+
+A medida Saldo Operacional calcula o resultado líquido das movimentações financeiras em determinado período. <br>
+
+Por meio da função SUM, ela soma todos os valores do campo Valor da tabela f_movimentos, considerando tanto entradas (valores positivos) quanto saídas (valores negativos). <br>
+
+Em resumo, essa medida mostra o resultado operacional do caixa, indicando se a empresa apresentou superávit (saldo positivo) ou déficit (saldo negativo) após considerar todas as movimentações do período analisado.
+
+##### `Sobre: Saldo Inicial`
+```
+Saldo Inicial = 
+    CALCULATE(
+        SUM(f_movimentos[Valor]),
+        dim_calendario[Date] < MIN(dim_calendario[Date])
+    ) + SUM(f_saldo_anterior[Valor])
+
+```
+
+A medida Saldo Inicial calcula o valor de caixa acumulado antes do período selecionado na análise. <br>
+
+Ela utiliza a função CALCULATE para somar os valores da tabela f_movimentos cujas datas em dim_calendario[Date] são anteriores à menor data do contexto atual do filtro (MIN(dim_calendario[Date])). Em seguida, adiciona o valor proveniente da tabela f_saldo_anterior, que representa o saldo trazido de períodos anteriores (mês ou exercício anterior). <br>
+
+Em resumo, essa medida determina o ponto de partida do fluxo de caixa para o período analisado, servindo como base para o cálculo do saldo final e para a correta visualização da evolução financeira ao longo do tempo.
+
+##### `Sobre: Saldo Final`
+```
+Saldo Final = [Saldo Inicial] + [Saldo Operacional]
+```
+
+A medida Saldo Final calcula o total disponível em um determinado período somando o Saldo Inicial com o Saldo Operacional. <br>
+
+- Saldo Inicial: representa o valor que já estava disponível no início do período.
+- Saldo Operacional: representa as entradas e saídas ocorridas ao longo do período.
+
+Portanto, o Saldo Final indica o valor total ao final do período considerado, refletindo a posição financeira após todas as movimentações.
+
+##### `Sobre: Fluxo`
+```
+Fluxo = 
+VAR __GrupoID = SELECTEDVALUE(dim_grupos[Grupo_ID])
+RETURN
+    IF(
+        __GrupoID IN {3, 4, 5} && ISINSCOPE(dim_contas[Subgrupo]),
+        BLANK(),
+        
+        SWITCH(
+            SELECTEDVALUE(dim_grupos[Grupo_ID]),
+            1, [Entradas],
+            2, [Saídas],
+            3, [Saldo Operacional],
+            4, [Saldo Inicial],
+            5, [Saldo Final]
+        )
+    )    
+```
+
+A medida Fluxo retorna dinamicamente diferentes valores dependendo do grupo selecionado e do nível de detalhamento na visualização: <br>
+
+Primeiro, captura o Grupo_ID selecionado (__GrupoID). <br>
+
+Se o Grupo_ID for 3, 4 ou 5 e houver detalhamento por subgrupo, retorna BLANK() para evitar duplicação ou inconsistência na visualização. <br>
+
+Caso contrário, utiliza o SWITCH para retornar o valor correspondente ao grupo: <br>
+
+1. → [Entradas]
+2. → [Saídas]
+3. → [Saldo Operacional]
+4. → [Saldo Inicial]
+5. → [Saldo Final]
+
+Em resumo, a medida ajusta automaticamente o valor mostrado no relatório conforme o grupo e o nível de detalhe, garantindo que os dados façam sentido visualmente.
 
 #### 3.7.2. Página "Matriz"
 ![pagina_matriz](files/pagina_matriz.PNG)
