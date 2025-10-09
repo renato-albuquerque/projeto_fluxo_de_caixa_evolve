@@ -125,7 +125,27 @@ Segue abaixo modelo criado da tabela dim_calendario. Obs.: Menor data da base de
 -- Coluna Conta, classificar por coluna Conta_ID. <br>
 -- Coluna Subgrupo, classificar por coluna Subgrupo_ID.
 
-#### 3.5.6. Modelagem Dimensional
+### 3.6. Modelagem Dimensional
 ![modelagem_dimensional_concluida](files/modelagem_dimensional.PNG)
 
+### 3.7. Desenvolvimento dos Dashboards (Dataviz)
+
+#### 3.7.1. Medidas
+
+#### 3.7.2. Página "Matriz"
+
+#### 3.7.3. Página "DFC" 
+
 ## 4. Conclusão/Resultados para o Negócio
+O desenvolvimento da solução de Fluxo de Caixa no Power BI permitiu centralizar e automatizar o tratamento dos dados financeiros, integrando informações provenientes de diferentes fontes (sistemas contábeis, bancos e planilhas operacionais). <br>
+
+A estrutura do modelo de dados foi projetada para suportar análises dinâmicas por ano, mês, banco e categoria de receita ou despesa, possibilitando a visualização consolidada na Página DFC (indicadores e gráficos de desempenho) e a análise detalhada na Página Matriz (tabelas dinâmicas com valores por período). <br>
+
+Como resultado, a solução proporciona: <br>
+
+- Maior precisão e rastreabilidade dos dados financeiros;
+- Redução do tempo de consolidação e atualização de informações;
+- Padronização dos cálculos de saldo operacional, inicial e final;
+- Apoio à tomada de decisão baseada em dados atualizados e confiáveis. <br>
+
+Com isso, o projeto contribui diretamente para o aprimoramento do controle de liquidez, planejamento financeiro e gestão estratégica dos recursos da organização.
