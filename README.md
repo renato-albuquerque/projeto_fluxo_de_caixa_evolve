@@ -252,6 +252,12 @@ Em resumo, a medida ajusta automaticamente o valor mostrado no relatório confor
 #### 3.7.2. Página "Matriz"
 ![pagina_matriz](files/pagina_matriz.PNG)
 
+Inserido visuais de `Segmentação de Dados` por `Tipo de Banco, Mês e Ano.`
+![pagina_matriz_segmentacao_dados](files/matriz_segmentacao_dados.PNG)
+
+Inserido visual de `Matriz` para análise detalhada por período.
+![pagina_matriz_icone](files/matriz_icone.PNG)
+
 #### 3.7.3. Página "DFC" 
 ![pagina_dfc](files/pagina_dfc.PNG)
 
