@@ -137,7 +137,7 @@ Segue abaixo modelo criado da tabela dim_calendario. Obs.: Menor data da base de
 ![pagina_matriz](files/pagina_matriz.PNG)
 
 #### 3.7.3. Página "DFC" 
-![pagina_dfc](#373-página-dfc)
+![pagina_dfc](files/pagina_dfc.PNG)
 
 #### 3.7.4. Navegação entre páginas
 
