@@ -261,6 +261,12 @@ Inserido visual de `Matriz` para análise detalhada por período.
 #### 3.7.3. Página "DFC" 
 ![pagina_dfc](files/pagina_dfc.PNG)
 
+Parte superior da página: Inserido `Segmentação de Dados` por `Ano` e `Cartão (novo)` para os `Números Principais do Negócio (Big Numbers)`.
+![pagina_dfc_parte_superior](files/dfc_cartao_segmentacao_dados.PNG)
+
+Para os dashboards desta página, seue abaixo tipos de gráficos selecionados:
+![pagina_dfc_dashboards](files/dfc_dashboards.PNG)
+
 #### 3.7.4. Navegação entre páginas
 
 ## 4. Conclusão/Resultados para o Negócio
