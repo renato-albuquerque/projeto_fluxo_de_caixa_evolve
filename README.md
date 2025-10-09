@@ -46,6 +46,7 @@ Este projeto é composto de `04 Datasets`:
 - SaldoAnterior.xlsx.
 
 ### 3.3. Dicionário de Dados
+É o documento que descreve de forma padronizada todas as informações utilizadas neste projeto, detalhando as colunas do dataset, os tipos de dados e as descrições para cada coluna. Ele serve como referência para garantir consistência, transparência e entendimento comum entre as equipes de negócio, TI e análise de dados, facilitando a manutenção e a integração das bases de dados.
 
 #### 3.3.1. Dataset: "Bancos.xlsx":
 ![tabela_bancos](files/dd_tabela_bancos.PNG) <br>
