@@ -121,13 +121,13 @@ Segue abaixo modelo criado da tabela dim_calendario. Obs.: Menor data da base de
 ### 3.6. Dicionário de Dados
 O documento descreve de forma padronizada todas as informações utilizadas neste projeto, detalhando as colunas do dataset, os tipos de dados e as descrições para cada coluna. Ele serve como referência para garantir consistência, transparência e entendimento comum entre as equipes de negócio, TI e análise de dados, facilitando a manutenção e a integração das bases de dados.
 
-#### 3.3.1. Tabela: "dim_bancos":
+#### 3.6.1. Tabela: "dim_bancos":
 ![tabela_bancos](files/dd_tabela_bancos.PNG) <br>
 
-#### 3.3.2. Tabela: "dim_contas":
+#### 3.6.2. Tabela: "dim_contas":
 ![tabela_plano_contas](files/dd_tabela_plano_contas.PNG) <br>
 
-#### 3.3.3. Tabela: "dim_calendario":
+#### 3.6.3. Tabela: "dim_calendario":
 | **Coluna**          | **Tipo de Dado**      | **Descrição**                                                                                          |
 | ------------------- | --------------------- | ------------------------------------------------------------------------------------------------------ |
 | **Date**            | Data                  | Data completa no formato `AAAA-MM-DD`, abrangendo o período de 02/01/2023 a 10/05/2024.                |
@@ -147,10 +147,10 @@ O documento descreve de forma padronizada todas as informações utilizadas nest
 | **EhFimDeSemana**   | Texto (`Sim` / `Não`) | Indica se a data corresponde a um sábado ou domingo.                                                   |
 | **EhDiaUtil**       | Texto (`Sim` / `Não`) | Indica se a data é um dia útil (segunda a sexta-feira).                                                |
 
-#### 3.3.4. Tabela: "f_movimentos":
+#### 3.6.4. Tabela: "f_movimentos":
 ![tabela_movimentos](files/dd_tabela_movimentos.PNG) <br>
 
-#### 3.3.5. Tabela: "f_saldo_anterior":
+#### 3.6.5. Tabela: "f_saldo_anterior":
 ![tabela_saldo_anterior](files/dd_tabela_saldo_anterior.PNG) <br>
 
 ### 3.7. Desenvolvimento dos Dashboards (Dataviz)
