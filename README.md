@@ -93,6 +93,11 @@ Abaixo segue o passo realizado: <br>
 ![tabela_f_saldo_anterior_transformada](files/f_saldo_anterior_final.PNG)
 
 #### 3.4.4. Criação da tabela `dim_calendario`.
+A tabela dim_calendario é uma dimensão de tempo utilizada em modelos analíticos para permitir a análise de fatos ao longo do tempo (por ano, mês, trimestre, semana, dia, etc.). Essencial para cálculos de séries temporais, comparações entre períodos e análises sazonais em projetos de BI e Data Warehouse. <br>
+
+##### Geração da Tabela (DAX)
+Tabela criada diretamente no Power BI através da função CALENDAR, que define o intervalo de datas, e da função ADDCOLUMNS, que adiciona colunas derivadas com atributos de tempo. <br>
+
 Segue abaixo modelo criado da tabela dim_calendario. Obs.: Menor data da base de dados foi 02/Jan/23. <br>
 ![dim_calendario](files/dim_calendario.PNG)
 
@@ -123,7 +128,24 @@ O documento descreve de forma padronizada todas as informações utilizadas nest
 ![tabela_plano_contas](files/dd_tabela_plano_contas.PNG) <br>
 
 #### 3.3.3. Tabela: "dim_calendario":
-![tabela_saldo_anterior](files/) <br>
+| **Coluna**          | **Tipo de Dado**      | **Descrição**                                                                                          |
+| ------------------- | --------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Date**            | Data                  | Data completa no formato `AAAA-MM-DD`, abrangendo o período de 02/01/2023 a 10/05/2024.                |
+| **Ano**             | Inteiro               | Ano correspondente à data. Exemplo: `2023`.                                                            |
+| **MesNumero**       | Inteiro               | Número do mês (1 a 12). Exemplo: `1 = Janeiro`, `12 = Dezembro`.                                       |
+| **MesNome**         | Texto                 | Nome completo do mês. Exemplo: `Janeiro`.                                                              |
+| **MesAbrev**        | Texto                 | Nome abreviado do mês. Exemplo: `Jan`.                                                                 |
+| **MesAno**          | Texto                 | Combinação do mês abreviado e do ano. Exemplo: `Jan/2023`.                                             |
+| **Trimestre**       | Texto                 | Identificação do trimestre no formato `Tn`. Exemplo: `T1`.                                             |
+| **AnoTrimestre**    | Texto                 | Combinação do ano e do trimestre. Exemplo: `2023 - T1`.                                                |
+| **SemanaAno**       | Inteiro               | Número da semana dentro do ano (1 a 53), considerando **segunda-feira como o primeiro dia da semana**. |
+| **Dia**             | Inteiro               | Dia do mês (1 a 31).                                                                                   |
+| **DiaSemanaNumero** | Inteiro               | Número do dia da semana (`1 = Segunda-feira`, `7 = Domingo`).                                          |
+| **DiaSemanaNome**   | Texto                 | Nome completo do dia da semana. Exemplo: `Segunda-feira`.                                              |
+| **DiaAno**          | Texto                 | Representação do dia e mês no formato `DD/MM`. Exemplo: `15/02`.                                       |
+| **AnoMes**          | Texto / Numérico      | Combinação do ano e mês no formato `AAAAMM`. Útil para ordenação cronológica. Exemplo: `202301`.       |
+| **EhFimDeSemana**   | Texto (`Sim` / `Não`) | Indica se a data corresponde a um sábado ou domingo.                                                   |
+| **EhDiaUtil**       | Texto (`Sim` / `Não`) | Indica se a data é um dia útil (segunda a sexta-feira).                                                |
 
 #### 3.3.4. Tabela: "f_movimentos":
 ![tabela_movimentos](files/dd_tabela_movimentos.PNG) <br>
