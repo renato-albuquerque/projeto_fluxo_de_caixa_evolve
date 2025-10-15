@@ -116,16 +116,19 @@ Segue abaixo modelo criado da tabela dim_calendario. Obs.: Menor data da base de
 ### 3.6. Dicionário de Dados
 O documento descreve de forma padronizada todas as informações utilizadas neste projeto, detalhando as colunas do dataset, os tipos de dados e as descrições para cada coluna. Ele serve como referência para garantir consistência, transparência e entendimento comum entre as equipes de negócio, TI e análise de dados, facilitando a manutenção e a integração das bases de dados.
 
-#### 3.3.1. Dataset: "Bancos.xlsx":
+#### 3.3.1. Tabela: "dim_bancos":
 ![tabela_bancos](files/dd_tabela_bancos.PNG) <br>
 
-#### 3.3.2. Dataset: "PlanoContas.xlsx":
+#### 3.3.2. Tabela: "dim_contas":
 ![tabela_plano_contas](files/dd_tabela_plano_contas.PNG) <br>
 
-#### 3.3.3. Dataset: "Movimentos.xlsx":
+#### 3.3.3. Tabela: "dim_calendario":
+![tabela_saldo_anterior](files/) <br>
+
+#### 3.3.4. Tabela: "f_movimentos":
 ![tabela_movimentos](files/dd_tabela_movimentos.PNG) <br>
 
-#### 3.3.4. Dataset: "SaldoAnterior.xlsx":
+#### 3.3.5. Tabela: "f_saldo_anterior":
 ![tabela_saldo_anterior](files/dd_tabela_saldo_anterior.PNG) <br>
 
 ### 3.7. Desenvolvimento dos Dashboards (Dataviz)
