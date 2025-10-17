@@ -155,6 +155,15 @@ O documento descreve de forma padronizada todas as informações utilizadas nest
 
 ### 3.7. Desenvolvimento dos Dashboards (Dataviz)
 
+#### 3.7.1. Mapeamento das Métricas (KPI's)
+Etapas: <br>
+- `Entrevistar stakeholders` — Realizar reuniões com a área de negócio, usuários-chave e gestores para entender as necessidades de monitoramento.
+- `Identificar o KPI principal` — Perguntar qual é o principal indicador de desempenho da área e sua relevância estratégica.
+- `Compreender o processo monitorado` — Definir qual processo operacional ou de negócio o KPI representa ou acompanha.
+- `Mapear as fontes de dados` — Levantar quais dados são gerados pelo processo e onde estão disponíveis (banco de dados, relatórios, sistemas, etc.).
+- `Detalhar a origem e acesso ao dado` — Verificar como o dado é obtido e quais ferramentas são utilizadas para extração ou consulta.
+- `Documentar o racional de cálculo` — Registrar a fórmula ou metodologia utilizada para o cálculo do KPI, incluindo filtros, agregações e periodicidade.
+
 #### 3.7.1. Medidas
 ![medidas](files/medidas.PNG)
 
