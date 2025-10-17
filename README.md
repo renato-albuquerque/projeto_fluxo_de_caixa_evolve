@@ -320,8 +320,11 @@ Tabela dim_calendario: `Ano` e `MesNome`. <br>
 Parte superior da página: Inserido `Segmentação de Dados` por `Ano` e `Cartão (novo)` para os `Números Principais do Negócio (Big Numbers)`.
 ![pagina_dfc_parte_superior](files/dfc_cartao_segmentacao_dados.PNG)
 
-Para os dashboards desta página, seue abaixo tipos de gráficos selecionados:
+Para os dashboards desta página, segue abaixo tipos de gráficos selecionados:
 ![pagina_dfc_dashboards](files/dfc_dashboards.PNG)
+
+##### Medida(s) & Coluna(s) utilizada(s):
+![dashboards_pagina_dfc_medidas_&_colunas_utilizadas](files/dfc_graf_medidas_colunas_utilizadas.PNG)
 
 #### 3.7.5. Navegação entre páginas
 Apresentado forma de inserir os botões nos ícones, assim como explicação de ação para cada botão.
