@@ -58,7 +58,7 @@ _(Obs.: Informação da dim__calendario será detalhada no tópico seguinte)._ <
 Não foi preciso realizar transformações nas tabelas. 
 
 #### 3.4.2. Tabela f_movimentos
-- 1ª, como melhor prática para performance, foram inseridas as colunas `Conta_ID (Tabela dim_contas)` e `Banco_ID (Tabela dim_bancos)`. Abaixo seguem os passos realizados: <br>
+- 1ª, a tabela `f_movimentos` possui as colunas "Conta" e "Banco" no formato "texto (string)". Como melhor prática para performance e padrão utilizado nas "tabelas fato", foram inseridas colunas de outras tabelas, como `Conta_ID ( Da tabela dim_contas)` e `Banco_ID (Da tabela dim_bancos)`. Abaixo seguem os passos realizados: <br>
 
 `Mesclar consulta:`
 ![mesclar_consultas](files/mesclar_consultas.PNG)
@@ -67,9 +67,9 @@ Não foi preciso realizar transformações nas tabelas.
 `Escolher: coluna:` Como exemplo, imagem da escolha pela coluna `Banco_ID`.
 ![escolher_coluna](files/mesclar_consultas_2.PNG)
 
-- 2ª, as colunas inseridas foram renomeadas para `Conta_ID` e `Banco_ID`.
+- 2ª, as colunas inseridas foram renomeadas para `Conta_ID` e `Banco_ID`, para facilitar leitura.
 
-- 3ª, "excluir" as colunas `Conta` e `Banco` e "ordenar" as colunas conforme ordem preferida. Abaixo segue o passo realizado: <br>
+- 3ª, "excluir" as colunas `Conta` e `Banco`, devido a inclusão das colunas `Conta_ID` e `Banco_ID`. "Ordenar" as colunas conforme ordem preferida. Abaixo segue o passo realizado: <br>
 ![excluir_ordenar_colunas](files/remover_colunas.PNG)
 
 - 4ª, na coluna `Tipo`, com valores "Entrada" e "Saída", a ação foi por mostrar apenas o 1ª caractere, "E" e "S". Finalidade de deixar os dados da coluna "clean". Abaixo segue o passo realizado: <br>
@@ -78,7 +78,7 @@ Não foi preciso realizar transformações nas tabelas.
 
 - 5ª, na coluna `Valor`, o tipo de dado foi alterado para "Número decimal fixo". <br>
 -- Alguns motivos: Evita erros de arredondamento. Mais confiável para cálculos de dinheiro, taxas, juros, impostos. Em relatórios financeiros e de fluxo de caixa, precisão absoluta é obrigatória (mesmo centavos importam). Este tipo garante que as somas e agregações não tenham distorções de arredondamento. <br>
--- Boa prática: Sempre que a coluna representa moeda, saldo bancário, receitas ou despesas, escolha `Número Decimal` Fixo no Power Query. <br>
+-- Boa prática: Sempre que a coluna representa moeda, saldo bancário, receitas ou despesas, escolher `Número Decimal` Fixo no Power Query. <br>
 Abaixo segue o passo realizado: <br>
 ![tipo_dado_numero_decimal_fixo](files/col_valor_tipo_dado.PNG)
 
