@@ -292,6 +292,14 @@ Inserido visuais de `Segmentação de Dados` por `Tipo de Banco, Mês e Ano.`
 Inserido visual de `Matriz` para análise detalhada por período.
 ![pagina_matriz_icone](files/matriz_icone.PNG)
 
+##### Medida(s) utilizada(s)
+`Fluxo`
+
+##### Coluna(s) utilizada(s)
+Tabela dim_grupos: `Grupo`. <br>
+Tabela dim_contas: `Conta` e `Subgrupo`. <br>
+Tabela dim_calendario: `Ano` e `MesNome`. <br>
+
 #### 3.7.4. Página "DFC" 
 ![pagina_dfc](files/pagina_dfc.PNG)
 
