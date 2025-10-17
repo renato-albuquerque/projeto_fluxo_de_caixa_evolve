@@ -164,10 +164,10 @@ Etapas: <br>
 - `Detalhar a origem e acesso ao dado` — Verificar como o dado é obtido e quais ferramentas são utilizadas para extração ou consulta.
 - `Documentar o racional de cálculo` — Registrar a fórmula ou metodologia utilizada para o cálculo do KPI, incluindo filtros, agregações e periodicidade.
 
-#### 3.7.1. Medidas
+#### 3.7.2. Medidas
 ![medidas](files/medidas.PNG)
 
-##### `Sobre: Entradas`
+##### Medida: `Entradas`
 ```
 Entradas = 
     CALCULATE(
@@ -182,7 +182,7 @@ Por meio da função CALCULATE, é somado o campo Valor da tabela f_movimentos, 
 
 Em resumo, essa medida retorna o somatório de todos os recebimentos da empresa — como receitas, vendas ou outros ingressos de caixa — servindo de base para o cálculo do saldo operacional e demais indicadores financeiros no dashboard.
 
-##### `Sobre: Saídas`
+##### Medida: `Saídas`
 ```
 Saídas = 
     CALCULATE(
@@ -197,7 +197,7 @@ Utilizando a função CALCULATE, ela soma o campo Valor da tabela f_movimentos, 
 
 Em resumo, essa medida representa todos os pagamentos e despesas realizados pela empresa — como fornecedores, folha de pagamento, impostos e outros desembolsos — sendo essencial para a apuração do saldo operacional e do saldo final no dashboard de fluxo de caixa.
 
-##### `Sobre: Saídas ABS`
+##### Medida: `Saídas ABS`
 ```
 Saídas ABS = ABS([Saídas])
 ```
@@ -208,7 +208,7 @@ Ela utiliza a função ABS, que converte números negativos em positivos, aplica
 
 Em resumo, essa medida é usada para padronizar a exibição dos valores de saída, facilitando a leitura e comparação nos gráficos e indicadores do dashboard de fluxo de caixa.
 
-##### `Sobre: Saldo Operacional`
+##### Medida: `Saldo Operacional`
 ```
 Saldo Operacional = sum(f_movimentos[Valor])
 ```
@@ -219,7 +219,7 @@ Por meio da função SUM, ela soma todos os valores do campo Valor da tabela f_m
 
 Em resumo, essa medida mostra o resultado operacional do caixa, indicando se a empresa apresentou superávit (saldo positivo) ou déficit (saldo negativo) após considerar todas as movimentações do período analisado.
 
-##### `Sobre: Saldo Inicial`
+##### Medida: `Saldo Inicial`
 ```
 Saldo Inicial = 
     CALCULATE(
@@ -235,7 +235,7 @@ Ela utiliza a função CALCULATE para somar os valores da tabela f_movimentos cu
 
 Em resumo, essa medida determina o ponto de partida do fluxo de caixa para o período analisado, servindo como base para o cálculo do saldo final e para a correta visualização da evolução financeira ao longo do tempo.
 
-##### `Sobre: Saldo Final`
+##### Medida: `Saldo Final`
 ```
 Saldo Final = [Saldo Inicial] + [Saldo Operacional]
 ```
@@ -247,7 +247,7 @@ A medida Saldo Final calcula o total disponível em um determinado período soma
 
 Portanto, o Saldo Final indica o valor total ao final do período considerado, refletindo a posição financeira após todas as movimentações.
 
-##### `Sobre: Fluxo`
+##### Medida: `Fluxo`
 ```
 Fluxo = 
 VAR __GrupoID = SELECTEDVALUE(dim_grupos[Grupo_ID])
@@ -283,7 +283,7 @@ Caso contrário, utiliza o SWITCH para retornar o valor correspondente ao grupo:
 
 Em resumo, a medida ajusta automaticamente o valor mostrado no relatório conforme o grupo e o nível de detalhe, garantindo que os dados façam sentido visualmente.
 
-#### 3.7.2. Página "Matriz"
+#### 3.7.3. Página "Matriz"
 ![pagina_matriz](files/pagina_matriz.PNG)
 
 Inserido visuais de `Segmentação de Dados` por `Tipo de Banco, Mês e Ano.`
@@ -292,7 +292,7 @@ Inserido visuais de `Segmentação de Dados` por `Tipo de Banco, Mês e Ano.`
 Inserido visual de `Matriz` para análise detalhada por período.
 ![pagina_matriz_icone](files/matriz_icone.PNG)
 
-#### 3.7.3. Página "DFC" 
+#### 3.7.4. Página "DFC" 
 ![pagina_dfc](files/pagina_dfc.PNG)
 
 Parte superior da página: Inserido `Segmentação de Dados` por `Ano` e `Cartão (novo)` para os `Números Principais do Negócio (Big Numbers)`.
@@ -301,7 +301,7 @@ Parte superior da página: Inserido `Segmentação de Dados` por `Ano` e `Cartã
 Para os dashboards desta página, seue abaixo tipos de gráficos selecionados:
 ![pagina_dfc_dashboards](files/dfc_dashboards.PNG)
 
-#### 3.7.4. Navegação entre páginas
+#### 3.7.5. Navegação entre páginas
 Apresentado forma de inserir os botões nos ícones, assim como explicação de ação para cada botão.
 ![pagina_dfc_dashboards](files/botoes_navegacao.PNG)
 ![pagina_dfc_dashboards](files/botoes_explicacao.PNG)
