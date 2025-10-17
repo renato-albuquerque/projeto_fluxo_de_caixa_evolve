@@ -292,13 +292,27 @@ Inserido visuais de `Segmentação de Dados` por `Tipo de Banco, Mês e Ano.`
 Inserido visual de `Matriz` para análise detalhada por período.
 ![pagina_matriz_icone](files/matriz_icone.PNG)
 
-##### Medida(s) utilizada(s)
-`Fluxo`
+##### Medida(s) utilizada(s):
+`Fluxo`.
 
-##### Coluna(s) utilizada(s)
+##### Coluna(s) utilizada(s):
 Tabela dim_grupos: `Grupo`. <br>
 Tabela dim_contas: `Conta` e `Subgrupo`. <br>
 Tabela dim_calendario: `Ano` e `MesNome`. <br>
+
+##### Dashboard Overview:
+- O fluxo operacional consolidado (2023–2024) mostra saldo negativo de R$ 5,87 milhões, indicando que as saídas superaram as entradas no biênio.
+- 2023 apresentou resultado positivo (R$ 5,62 milhões), mas 2024 teve forte queda (R$ 11,49 milhões), revertendo o caixa acumulado.
+- Resultado de Maio/2024 teve forte influência no saldo operacional. Resultados de Entradas e Saídas inferiores aos meses anteriores.
+- As entradas diminuíram 61,8% de 2023 para 2024, enquanto as saídas reduziram 60,6%, mantendo um descompasso entre receitas e despesas.
+- Pagamentos a fornecedores e despesas com pessoal continuam sendo os maiores pesos no fluxo de saída.
+
+##### Alguns Insights:
+- Revisar contratos e prazos com fornecedores, buscando alongar pagamentos ou renegociar custos fixos.
+- Aumentar receitas operacionais, priorizando meses de menor entrada (fevereiro e março de 2024 tiveram forte recuo).
+- Monitorar despesas financeiras e impostos, que cresceram proporcionalmente ao volume de saída.
+- Aproveitar o histórico positivo de 2023 como base para metas de eficiência e otimização do capital de giro.
+- Planejar o fluxo de caixa mensal, reforçando previsões e cenários preventivos para evitar novo fechamento negativo em 2025.
 
 #### 3.7.4. Página "DFC" 
 ![pagina_dfc](files/pagina_dfc.PNG)
