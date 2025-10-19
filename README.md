@@ -370,6 +370,17 @@ O gráfico mostra o saldo consolidado por banco. <br>
 | Queda geral de saldos positivos em 2024 | Menor folga de caixa e possível aumento de despesas ou menor entrada de receitas. | Controlar saídas, revisar previsões de caixa e fortalecer contas com melhor desempenho. |
 | Concentração de caixa em poucos bancos | A distribução desigual pode representar risco financeiro e operacional. | Distribuir saldos de forma mais equilibrada entre instituições para reduzir risco e aproveitar melhores condições. |
 
+#### Gráfico 04: Entradas por Subgrupo 
+##### Dashboard Overview:
+Os gráficos mostram a composição das entradas por subgrupo. Em ambos os anos, a grande maioria das entradas vem das “Receitas com vendas”, enquanto as receitas financeiras representam uma parcela pequena do total.
+
+##### Alguns Insights:
+| Situação | Insight | Recomendações |
+|--------------|-------------|--------------------|
+| Receita concentrada em vendas | Mais de 95% das entradas vêm de “Receitas com vendas”. Há forte dependência desse subgrupo. | Diversificar fontes de receita, reforçar estratégias de fidelização e expansão de clientes. |
+| Baixa participação das receitas financeiras | As receitas financeiras representam uma parcela pouco significativa do total. | Avaliar oportunidades de aplicações financeiras mais rentáveis ou melhorar gestão de caixa. |
+| Entrada consistente via vendas | As vendas se mantêm como principal motor de entrada nos dois anos analisados. | Manter estratégias comerciais eficazes, ampliar canais de venda e monitorar indicadores de desempenho. |
+| Potencial subaproveitamento de receitas financeiras | Valor financeiro é baixo frente ao volume de caixa disponível. | Analisar políticas
 
 
 #### 3.7.5. Navegação entre páginas
