@@ -380,8 +380,21 @@ Os gráficos mostram a composição das entradas por subgrupo. Em ambos os anos,
 | Receita concentrada em vendas | Mais de 95% das entradas vêm de “Receitas com vendas”. Há forte dependência desse subgrupo. | Diversificar fontes de receita, reforçar estratégias de fidelização e expansão de clientes. |
 | Baixa participação das receitas financeiras | As receitas financeiras representam uma parcela pouco significativa do total. | Avaliar oportunidades de aplicações financeiras mais rentáveis ou melhorar gestão de caixa. |
 | Entrada consistente via vendas | As vendas se mantêm como principal motor de entrada nos dois anos analisados. | Manter estratégias comerciais eficazes, ampliar canais de venda e monitorar indicadores de desempenho. |
-| Potencial subaproveitamento de receitas financeiras | Valor financeiro é baixo frente ao volume de caixa disponível. | Analisar políticas
+| Potencial subaproveitamento de receitas financeiras | Valor financeiro é baixo frente ao volume de caixa disponível. | Analisar políticas.
 
+#### Gráfico 05: Saídas por Subgrupo 
+##### Dashboard Overview:
+Os gráficos mostram a distribuição das despesas por subgrupo. Em ambos os anos, os maiores gastos estão concentrados em Pagamento a fornecedores, seguidos por Despesas com pessoal. Os demais subgrupos (despesas financeiras, impostos e investimentos) representam parcelas menores do total de saídas. <br>
+Nota-se que em 2024 houve redução significativa das despesas, especialmente em fornecedores e pessoal, indicando possível controle de custos ou redução de operações.
+
+##### Alguns Insights:
+| Situação | Insight | Recomendações |
+|--------------|-------------|--------------------|
+| Alto gasto com fornecedores em ambos os anos | Pagamentos a fornecedores representam a maior parte das despesas, porém houve redução em 2024. | Continuar negociação de contratos, buscar alternativas de fornecedores e manter o controle de custos. |
+| Redução nas despesas com pessoal em 2024 | Queda significativa nos gastos com pessoal indica otimização de recursos ou redução de quadro. | Garantir que a redução não impacte a produtividade; manter a eficiência com monitoramento contínuo. |
+| Aumento das despesas financeiras em 2024 | Crescimento de juros ou contratação de novos financiamentos elevou os gastos financeiros. | Renegociar dívidas, reduzir dependência de crédito e melhorar fluxo de caixa. |
+| Redução no valor de impostos em 2024 | Menor pagamento de impostos pode estar ligado à queda de receita ou incentivos fiscais. | Avaliar manutenção de incentivos e assegurar conformidade tributária. |
+| Baixo nível de investimentos | Investimentos são baixos em ambos os anos e reduziram ainda mais em 2024. | Planejar investimentos estratégicos para não comprometer o crescimento e a modernização. |
 
 #### 3.7.5. Navegação entre páginas
 Apresentado forma de inserir os botões nos ícones, assim como explicação de ação para cada botão.
