@@ -326,6 +326,23 @@ Para os dashboards desta página, segue abaixo tipos de gráficos selecionados:
 ##### Medida(s) & Coluna(s) utilizada(s):
 ![dashboards_pagina_dfc_medidas_&_colunas_utilizadas](files/dfc_graf_medidas_colunas_utilizadas.PNG)
 
+#### Gráfico 01: Entradas e Saídas por Ano e Mês 
+##### Dashboard Overview:
+O gráfico compara Entradas (receitas) e Saídas (despesas) mês a mês nos anos de 2023 e 2024. <br>
+As duas linhas se mantêm muito próximas, mostrando que a empresa opera com margens apertadas entre o que entra e o que sai do caixa. <br>
+Alguns meses apresentam picos de entradas e saídas, mostrando sazonalidade — especialmente em março, agosto e outubro de 2023 e abril de 2024.
+
+##### Alguns Insights:
+| Situação                                      | Insight                                                | Recomendações                                                                                               |
+|----------------------------------------------|--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| Margem apertada entre entrada e saída        | A empresa opera próxima do ponto de equilíbrio financeiro. | Criar reserva de caixa, renegociar despesas fixas e automatizar controle de custos.                        |
+| Picos de entradas em meses específicos       | Indica sazonalidade ou eventos específicos de faturamento. | Planejar caixa para períodos de baixa e antecipar compras ou investimentos nos meses de alta.              |
+| Queda em maio/2024                           | Pode ser impacto de mercado, atraso em recebíveis ou aumento de custos. | Verificar causas, acelerar recebimentos e revisar contratos com fornecedores.                              |
+| Estabilidade em 2024                         | Menos volatilidade, porém com menor folga de saldo operacional. | Manter controle rígido, mas buscar aumento de receita (novos clientes, reajustes de preços).               |
+
+
+
+
 #### 3.7.5. Navegação entre páginas
 Apresentado forma de inserir os botões nos ícones, assim como explicação de ação para cada botão.
 ![pagina_dfc_dashboards](files/botoes_navegacao.PNG)
