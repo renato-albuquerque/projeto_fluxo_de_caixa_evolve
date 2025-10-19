@@ -340,7 +340,20 @@ Alguns meses apresentam picos de entradas e saídas, mostrando sazonalidade — 
 | Queda em maio/2024                           | Pode ser impacto de mercado, atraso em recebíveis ou aumento de custos. | Verificar causas, acelerar recebimentos e revisar contratos com fornecedores.                              |
 | Estabilidade em 2024                         | Menos volatilidade, porém com menor folga de saldo operacional. | Manter controle rígido, mas buscar aumento de receita (novos clientes, reajustes de preços).               |
 
+#### Gráfico 02: Saldo Acumulado por Ano e Mês 
+##### Dashboard Overview:
+- O saldo acumulado representa a soma dos resultados mensais ao longo do tempo, indicando se a empresa está aumentando ou reduzindo seu caixa total.
+- Em 2023, observa-se crescimento contínuo do saldo ao longo dos meses, especialmente de agosto a novembro.
+- Em 2024, o saldo inicia positivo, cresce entre janeiro e março, mas apresenta forte queda em abril e praticamente zera em maio.
 
+##### Alguns Insights:
+| Situação | Insight | Recomendações |
+|--------------|-------------|--------------------|
+| Crescimento constante do saldo em 2023 (principalmente de agosto a novembro) | Boa capacidade de geração de caixa e controle das despesas no período. | Manter o controle de gastos e replicar as estratégias desse período em 2024. |
+| Queda do saldo em meses iniciais de 2023 (fevereiro/março) | Entradas menores ou aumento de despesas impactaram temporariamente o caixa. | Monitorar sazonalidade e planejar reservas para meses de menor receita. |
+| Crescimento do saldo de janeiro a março de 2024 | Fluxo positivo inicial indica equilíbrio entre entradas e saídas. | Reforçar as práticas de controle de despesas e estimular receitas recorrentes. |
+| Forte redução em abril e saldo quase zerado em maio de 2024 | Aumento de despesas ou queda nas entradas comprometeu o caixa. | Revisar despesas dos meses críticos, renegociar pagamentos e fortalecer receitas fixas. |
+| Falta de continuidade no crescimento do saldo em 2024 | Perda de consistência financeira em comparação com 2023. | Criar plano de contingência, ajustar orçamento e acompanhar o fluxo de caixa com maior frequência. |
 
 
 #### 3.7.5. Navegação entre páginas
