@@ -342,7 +342,7 @@ Alguns meses apresentam picos de entradas e saídas, mostrando sazonalidade — 
 
 #### Gráfico 02: Saldo Acumulado por Ano e Mês 
 ##### Dashboard Overview:
-- O saldo acumulado representa a soma dos resultados mensais ao longo do tempo, indicando se a empresa está aumentando ou reduzindo seu caixa total.
+O saldo acumulado representa a soma dos resultados mensais ao longo do tempo, indicando se a empresa está aumentando ou reduzindo seu caixa total. <br>
 - Em 2023, observa-se crescimento contínuo do saldo ao longo dos meses, especialmente de agosto a novembro.
 - Em 2024, o saldo inicia positivo, cresce entre janeiro e março, mas apresenta forte queda em abril e praticamente zera em maio.
 
@@ -354,6 +354,22 @@ Alguns meses apresentam picos de entradas e saídas, mostrando sazonalidade — 
 | Crescimento do saldo de janeiro a março de 2024 | Fluxo positivo inicial indica equilíbrio entre entradas e saídas. | Reforçar as práticas de controle de despesas e estimular receitas recorrentes. |
 | Forte redução em abril e saldo quase zerado em maio de 2024 | Aumento de despesas ou queda nas entradas comprometeu o caixa. | Revisar despesas dos meses críticos, renegociar pagamentos e fortalecer receitas fixas. |
 | Falta de continuidade no crescimento do saldo em 2024 | Perda de consistência financeira em comparação com 2023. | Criar plano de contingência, ajustar orçamento e acompanhar o fluxo de caixa com maior frequência. |
+
+#### Gráfico 03: Saldo por Banco 
+##### Dashboard Overview:
+O gráfico mostra o saldo consolidado por banco. <br>
+- Em 2023: Bradesco e Inter apresentam saldos positivos, enquanto Itaú Unibanco está com saldo negativo expressivo.
+- Em 2024: Os saldos diminuem nos bancos positivos (Bradesco e Inter) e o saldo negativo do Itaú Unibanco reduz, mas ainda representa risco financeiro. Isso indica concentração de recursos em poucos bancos e possível desequilíbrio ou uso excessivo de uma conta específica (Itaú Unibanco).
+
+##### Alguns Insights:
+| Situação | Insight | Recomendações |
+|----------|---------|----------------|
+| Bradesco com maior saldo positivo em ambos os anos | Demonstra boa gestão e estabilidade financeira nesse banco. | Manter alocação, mas avaliar se parte do saldo pode ser investida com melhor rentabilidade. |
+| Inter com saldo positivo, porém menor e em queda em 2024 | Redução pode indicar saques ou baixa entrada de recursos. | Reforçar entradas via Inter ou analisar possíveis custos bancários e tarifas. |
+| Itaú Unibanco com saldo negativo nos dois anos | Uso excessivo da conta, possível endividamento ou fluxo negativo recorrente. | Revisar operações vinculadas a esse banco, renegociar tarifas, limites ou transferir obrigações para bancos com saldo positivo. |
+| Queda geral de saldos positivos em 2024 | Menor folga de caixa e possível aumento de despesas ou menor entrada de receitas. | Controlar saídas, revisar previsões de caixa e fortalecer contas com melhor desempenho. |
+| Concentração de caixa em poucos bancos | A distribução desigual pode representar risco financeiro e operacional. | Distribuir saldos de forma mais equilibrada entre instituições para reduzir risco e aproveitar melhores condições. |
+
 
 
 #### 3.7.5. Navegação entre páginas
