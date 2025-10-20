@@ -3,7 +3,7 @@
 ## Sumário
 1. Entendimento do Negócio
 2. Justificativas do Projeto
-3. Desenvolvimento
+3. Desenvolvimento <br>
 3.1. Arquitetura do Projeto
 4. Conclusão/Resultados para o Negócio
 
