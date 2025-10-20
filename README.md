@@ -406,11 +406,17 @@ O desenvolvimento da solução de Fluxo de Caixa no Power BI permitiu centraliza
 
 A estrutura do modelo de dados foi projetada para suportar análises dinâmicas por ano, mês, banco e categoria de receita ou despesa, possibilitando a visualização consolidada na Página DFC (indicadores e gráficos de desempenho) e a análise detalhada na Página Matriz (tabelas dinâmicas com valores por período). <br>
 
+Na seção de apresentação dos gráficos do projeto, foi mostrado para cada dashboard desenvolvido os dois itens abaixo:
+- Explicação objetiva, entendimento do contexto;
+- Geração de insights para o negócio.
+
 Como resultado, a solução proporciona: <br>
 
 - Maior precisão e rastreabilidade dos dados financeiros;
 - Redução do tempo de consolidação e atualização de informações;
 - Padronização dos cálculos de saldo operacional, inicial e final;
-- Apoio à tomada de decisão baseada em dados atualizados e confiáveis. <br>
+- Apoio à tomada de decisão baseada em dados atualizados e confiáveis;
+- Geração de insights para os times envolvidos no processo, gestores e alta liderança.
+<br>
 
 Com isso, o projeto contribui diretamente para o aprimoramento do controle de liquidez, planejamento financeiro e gestão estratégica dos recursos da organização.
