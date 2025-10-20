@@ -397,7 +397,8 @@ Nota-se que em 2024 houve redução significativa das despesas, especialmente em
 | Baixo nível de investimentos | Investimentos são baixos em ambos os anos e reduziram ainda mais em 2024. | Planejar investimentos estratégicos para não comprometer o crescimento e a modernização. |
 
 #### 3.7.5. Navegação entre páginas
-Apresentado forma de inserir os botões nos ícones, assim como explicação de ação para cada botão.
+Apresentado forma de inserir os botões nos ícones, assim como explicação de ação para cada botão. <br>
+A finalidade desta etapa é prover ao usuário facilidade e agilidade na navegação entre as páginas desta solução de BI. <br>
 ![pagina_dfc_dashboards](files/botoes_navegacao.PNG)
 ![pagina_dfc_dashboards](files/botoes_explicacao.PNG)
 
