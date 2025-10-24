@@ -99,7 +99,7 @@ Abaixo segue o passo realizado: <br>
 - Segue abaixo tabela final com as transformações realizadas: <br>
 ![tabela_f_saldo_anterior_transformada](files/f_saldo_anterior_final.PNG)
 
-#### 3.4.4. Criação da tabela `dim_calendario`.
+#### 3.4.4. Criação da tabela `dim_calendario`
 A tabela dim_calendario é uma dimensão de tempo utilizada em modelos analíticos para permitir a análise de fatos ao longo do tempo (por ano, mês, trimestre, semana, dia, etc.). Essencial para cálculos de séries temporais, comparações entre períodos e análises sazonais em projetos de BI e Data Warehouse. <br>
 
 ##### Geração da Tabela (DAX)
